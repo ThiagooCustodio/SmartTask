@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F8"
+    android:backgroundTint="#91659D"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="SmartTasks"
+        android:textColor="#2C3E50"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Botão: Cadastrar Tarefa -->
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Cadastrar Tarefa"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botão: Listar Tarefas -->
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#75AD75"
+        android:text="Listagem de Tarefas"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botão: Compartilhar Link -->
+    <Button
+        android:id="@+id/btnCompartilhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6AA6DB"
+        android:text="Compartilhar Link"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botão: Análise Inteligente -->
+    <Button
+        android:id="@+id/btnAnalise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#A1A212"
+        android:text="Análise Inteligente"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botão: Sobre -->
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#607D8B"
+        android:text="Sobre"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
